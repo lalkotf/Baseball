@@ -14,7 +14,7 @@ class carTest {
 		 x.setDP(0);
 		 x.setLL(60);
 		 x.setIR(.10);
-		 System.out.println(x.interestFormula());
+		 System.out.println("Car Monthly Payment is: " + x.interestFormula());
 	}
 	
 	@Test
@@ -26,7 +26,7 @@ class carTest {
 		 x.setDP(0);
 		 x.setLL(60);
 		 x.setIR(.10);
-		 System.out.println(x.totalInterest());
+		 System.out.println("Total Interest Paid: " + x.totalInterest());
 	}
 		
 	
